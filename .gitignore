@@ -1,0 +1,159 @@
+# .NET MAUI and .NET Core
+## Build outputs
+bin/
+obj/
+*.user
+*.userprefs
+*.suo
+*.sln.docstates
+
+## NuGet
+*.nupkg
+packages/
+*.nuget.props
+*.nuget.targets
+nuget.config
+
+## .NET runtime and SDK
+*.csproj.user
+*.pdb
+*.dll
+*.exe
+*.msi
+*.cache
+*.tlog
+*.log
+*.bak
+*.tmp
+*.temp
+*.swp
+
+## MAUI-specific
+# Android
+**/android/**/bin/
+**/android/**/obj/
+**/android/**/assets/
+**/android/**/build/
+**/android/**/generated/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.keystore
+*.jks
+
+# iOS
+**/ios/**/bin/
+**/ios/**/obj/
+**/ios/**/build/
+**/ios/**/DerivedData/
+*.ipa
+*.mobileprovision
+*.xcarchive
+*.xcodeproj
+*.xcworkspace
+*.dsym
+*.app
+
+# macOS-specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+## IDEs and Editors
+# Visual Studio for Mac / Visual Studio Code
+.vscode/
+*.code-workspace
+*.vs/
+*.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Rider
+.idea/
+*.iml
+
+# Visual Studio
+*.csproj.user
+*.suo
+*.sln.iml
+*.DotSettings.user
+
+## Dependency and Package Manager
+# NuGet
+NuGet.Config
+NuGet.Scratch/
+NuGet.Build/
+NuGetPackages/
+*.nuget.g.props
+*.nuget.g.targets
+
+## Testing and Coverage
+TestResults/
+*.trx
+*.coverage
+*.coverlet
+coverage.*
+
+## Miscellaneous
+# Logs and diagnostics
+*.log
+logs/
+diagnostics/
+*.diag
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Backup files
+*~
+*.bak
+*.orig
+
+# Environment variables and secrets
+.env
+*.env.*
+!.env.example
+*.secrets
+appsettings.json
+appsettings.*.json
+
+# Project-specific temporary files
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+*.tmp
+
+# MAUI-specific generated files
+Resources/App.xaml.cs
+Resources/Styles/*
+!Resources/Styles/Colors.xaml
+!Resources/Styles/Styles.xaml
+
+# Other common ignores
+*.pidb
+*.svclog
+*.scc
+*.cache
+*.suo
+*.ncb
+*.aps
+*.opensdf
+*.sdf
+*.sql
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+
+# Ignore local test and debug files
+*.local
+*.local.config
+*.local.settings.json
